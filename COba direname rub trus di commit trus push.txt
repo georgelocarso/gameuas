@@ -1,1 +1,19 @@
 Isi something 
+
+Heloo
+
+1
+2
+3
+4
+45
+5
+6
+76
+7
+
+
+oub func():
+
+asdasdsad
+return
