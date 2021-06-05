@@ -74,7 +74,7 @@
     <Compile Include="Assets\Scripts\textLife.cs" />
     <Compile Include="Assets\Scripts\textScore.cs" />
     <Compile Include="Assets\bombsite.cs" />
-    <Compile Include="Assets\swipeControl.cs" />
+    <Compile Include="Assets\sceneManagement.cs" />
     <Reference Include="UnityEngine">
       <HintPath>E:/Programs/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
