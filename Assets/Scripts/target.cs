@@ -10,6 +10,7 @@ public class target : MonoBehaviour
         if(collider.gameObject.tag == "Player"){
             print("Picked Up");
             textScore.scoreValue += 100; 
+            textBomb.bombValue += 1; 
             gameObject.SetActive(false);
             // Destroy(gameObject);
         }
