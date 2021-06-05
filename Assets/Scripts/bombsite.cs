@@ -5,18 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class bombsite : MonoBehaviour
 {   
+    public GameObject panelResult;
    [SerializeField] private Transform player;
     [SerializeField] private Transform respawnPoint;
- 
     void OnTriggerEnter(Collider collider) {
         if(collider.gameObject.tag == "Player"){
             
             
             if(textBomb.bombValue > 1){
-                SceneManager.LoadScene("RealLevel1");                
-            SceneManager.LoadScene("Level2");            
-            gameObject.SetActive(false);
-            Destroy(gameObject);
+
+                
+
+            
+            panelResult.SetActive(true);             
             }
             else
             {
@@ -43,5 +44,17 @@ public class bombsite : MonoBehaviour
             SceneManager.LoadScene("RealLevel1");
             }
         }
+    }
+
+
+
+
+    void Update(){
+        
+        
+        if(panelResult.activeSelf == true){
+        Cursor.visible = true;
+        Time.timeScale = 0;
+    }
     }
 }

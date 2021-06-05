@@ -17,6 +17,9 @@ public class Movement2 : MonoBehaviour
     
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+
+    public GameObject panelResult;
+
     // Update is called once per frame
 
 
@@ -31,7 +34,7 @@ public class Movement2 : MonoBehaviour
     void Update()
     {
         groundedPlayer = controller.isGrounded;
-        
+     
         //pause game
         if (Input.GetKeyDown(KeyCode.Escape))
         {
