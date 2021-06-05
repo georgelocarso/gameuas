@@ -12,6 +12,11 @@ Heloo
 76
 7
 
+<<<<<<< HEAD
+=======
+Lonte sagiri
+XXX ngeri juga namamu
+>>>>>>> f0f4c70925fd4c65832df1a27ba41ef4fce55808
 
 oub func():
 
