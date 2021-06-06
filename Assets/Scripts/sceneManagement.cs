@@ -19,7 +19,7 @@ public class sceneManagement : MonoBehaviour
 
     public void loadLevel1()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("RealLevel1");
     }
 
     public void quitGame()

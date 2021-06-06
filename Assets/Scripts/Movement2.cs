@@ -10,13 +10,16 @@ public class Movement2 : MonoBehaviour
     public Transform cam;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
-    private float jumpHeight = 2.0f;
+    private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
 
     public float speed = 6f;
     
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+
+    public GameObject panelResult;
+
     // Update is called once per frame
 
 
@@ -31,7 +34,7 @@ public class Movement2 : MonoBehaviour
     void Update()
     {
         groundedPlayer = controller.isGrounded;
-        
+     
         //pause game
         if (Input.GetKeyDown(KeyCode.Escape))
         {
